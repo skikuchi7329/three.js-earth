@@ -49,8 +49,8 @@ function init() {
   scene.add(pointLight);
 
   // ポイント光源の場所を特定
-  let pointLightHelper = new THREE.PointLightHelper(pointLight, 30);
-  scene.add(pointLightHelper);
+  // let pointLightHelper = new THREE.PointLightHelper(pointLight, 30);
+  // scene.add(pointLightHelper);
 
   // マウス操作の追加
   controls = new OrbitControls(camera, renderer.domElement);
