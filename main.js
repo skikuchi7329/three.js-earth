@@ -39,13 +39,13 @@ function init() {
   scene.add(ballMesh);
 
   // 平行光源の追加
-  let directionalLight = new THREE.DirectionalLight(0xffffff, 2);
+  let directionalLight = new THREE.DirectionalLight(0xffffff, 3);
   directionalLight.position.set(1, 1, 1);
   scene.add(directionalLight);
 
   // ポイント光源を追加
-  pointLight = new THREE.PointLight(0xffffff, 1);
-  pointLight.position.set(200, 200, 200);
+  pointLight = new THREE.PointLight(0xffffff, 5000);
+  pointLight.position.set(2, 2, 2);
   scene.add(pointLight);
 
   // ポイント光源の場所を特定
